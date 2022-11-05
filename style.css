@@ -1,0 +1,199 @@
+.mainbox{
+    display:flex;
+  flex-direction: row;
+}
+.box{
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    margin:10px;
+}
+.mainbox2{
+    display: flex;
+    flex-direction: column;
+}
+.box1{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    margin:10px;
+}
+.box4{
+    display: flex;
+justify-content: center;
+}
+.box3{
+    width: 100px;
+    height: 50px;
+    margin: 15px;
+    background-color: aqua;
+}
+.box5{
+    display: flex;
+justify-content: flex-start;
+}
+.box6{
+    width: 100px;
+    height: 50px;
+    margin: 15px;
+    background-color: yellow;
+}
+
+.box7{
+    display: flex;
+justify-content: flex-end;
+}
+.box8{
+    width: 100px;
+    height: 50px;
+    margin: 15px;
+    background-color: yellow;
+}
+.box9{
+    display: flex;
+justify-content: space-around;
+}
+.box10{
+    width: 100px;
+    height: 50px;
+    margin: 15px;
+    background-color: yellow;
+}
+.pop1{
+position: relative;
+width: 200px;
+height: 200px;
+background-color: hotpink;
+}
+.pop2{
+position: absolute;
+top: 20px;
+width: 100px;
+height: 50px;
+background-color: indigo;
+margin: 10px;
+
+}
+.pop7{
+    width: 1000px;
+    height: 100px;
+    background-color: green;
+    border: 1px solid black;
+    display: inline-block;
+}
+.pop8{
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    margin-right:5px;
+    display: inline-block;
+
+    
+    }
+.pop9{
+    position:absolute;
+    top:20px;
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    margin-right:5px;
+    display: inline-block;
+
+
+}
+.pop11{
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    margin-right:5px;
+    display: inline-block;
+}
+.pop22{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-color: pink;
+    margin-right:5px; 
+}
+.pop33{
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    display: inline-block;
+    margin-right:5px; 
+}
+.form{
+    display:grid;
+ /* width: 100px;
+ height: 100px; */
+grid-gap: 10px;
+ grid-template-columns: 100px 100px 100px 100px;
+ grid-template-rows: 100px 100px 100px;
+
+
+}
+.form1{
+    background-color: pink;
+    grid-column: 1/span 3;
+}
+.form2{
+    background-color: pink;
+}
+.form3{
+    background-color: pink;
+}
+.form4{
+    background-color: pink;
+    grid-row: 1/span 3;
+    grid-column: 4;
+}
+.form5{
+    background-color: pink;
+}
+.form6{
+    background-color: pink;
+}
+.form7{
+    background-color: pink;
+}
+.form8{
+    background-color: pink;
+}
+.form9{
+    background-color: pink;
+}
+.form11{
+    background-color: pink;
+}
+.form22{
+    background-color: pink;
+}
+.form33{
+    background-color: pink;
+}
+.anusha{
+    width:200px;
+    height:200px;
+    background-color: darkmagenta;
+    position:absolute;
+    /* top: 5px; */
+    /* z-index: 6; */
+
+}
+.anusha2{
+    width:150px;
+    height:150px;
+    background-color: greenyellow;
+    position: absolute;
+    /* top:10px; */
+    z-index: 8;
+}
+.anu{
+    width:1000px;
+     height:80px;
+     padding: 25px;
+     margin: 50px;
+     background-color: grey;
+     border-radius: 1px;
+     border: 2px solid yellow;
+}
